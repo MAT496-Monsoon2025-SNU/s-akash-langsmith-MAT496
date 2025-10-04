@@ -44,6 +44,7 @@ I changed up the questionnaire (input, output and reference outputs) to match th
 Experiments evaluate datasets with a lot more flexibility on which version of your LLM and even which version of your dataset is taken. 
 You can even run experiments multiple times to determine if the LLM model has much deviation in its responses, and you can even run it concurrently to give you a faster output (although this uses up OpenAI rate limits much quicker and I am cautiously sparing of my 5$ worth of it!)
 I used my dataset of Minecraft questions (I am sorry in advance, I just really like Minecraft. I figured you could frame a lot of questions based on it) to evaluate the responses given by ChatGPT 4o as well as 3.5 Turbo
+![experiments](https://i.gyazo.com/e41e10f2c3129a064a165d7a19bfa9ca.png)
 
 
 
