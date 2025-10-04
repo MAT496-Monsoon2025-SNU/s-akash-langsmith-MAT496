@@ -46,5 +46,12 @@ You can even run experiments multiple times to determine if the LLM model has mu
 I used my dataset of Minecraft questions (I am sorry in advance, I just really like Minecraft. I figured you could frame a lot of questions based on it) to evaluate the responses given by ChatGPT 4o as well as 3.5 Turbo
 ![experiments](https://i.gyazo.com/e41e10f2c3129a064a165d7a19bfa9ca.png)
 
+### Vid 4 (Analyzing Results of Experiments)
+Not necessarily any code to run here. Just analyzing the statistics of model performance on the LangSmith dashboard. Compared the is_concise and similarity evaluators (the latter being something we made on our own using LLM as a Judge)
+![results1](https://i.gyazo.com/7cc82daae91e306a802a5cf114529c42.png)
+Data regarding how 3.5 Turbo performed. Only one experiment was ran using it.^
+![results2](https://i.gyazo.com/5bf2b2cc6bdaf96986a84a96f6144bc5.png)
+![results2](https://i.gyazo.com/03ca8c727a81ef84b0ff66fa2735ed95.png)
+Comparison of GPT 4o and GPT 3.5 Turbo^
 
 
