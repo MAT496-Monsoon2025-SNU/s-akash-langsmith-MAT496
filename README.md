@@ -22,7 +22,11 @@ Found out about a few alternate ways to trace other than using @traceable. Namel
 - RunTree API – For full manual control, quite advanced. requires LANGCHAIN_TRACING_V2 = false.
 ![RunTree](https://i.gyazo.com/8df3b6105fb98d599ce41e624904de9f.png)
 
-
+## Vid 4 (Conversational Threads)
+A Thread is a way of representing multiple traces that are linked through a unique thread identifier. Also learnt how to name threads with Python's UUID feature.
+I tried to figure out if Threads meant that new traces are able to use previous user input to answer questions. This turned out to be false. Threads are just a way to store relevant traces together in Langsmith.
+![traces](https://i.gyazo.com/c73681441f7bfdde7c470edc13afa115.png)
+![traces2](https://i.gyazo.com/59f8c8e47868d6eab2a77435634ae694.png)
 
 
 
