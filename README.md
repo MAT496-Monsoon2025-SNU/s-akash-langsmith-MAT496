@@ -16,10 +16,10 @@ I changed up the prompts behind the LLM, Retriever and Tool Runs quite a bit.
 
 ## Vid 3 (Alternate Ways to Trace)
 Found out about a few alternate ways to trace other than using @traceable. Namely,
--LangGraph: automatically traces everything without manual setup in a graph-like sequence
--trace(): Chooses which inputs/outputs to log.
--wrap_openai – Wrapper for OpenAI calls (tracks token usage)
--RunTree API – For full manual control, quite advanced. requires LANGCHAIN_TRACING_V2 = false.
+- LangGraph: automatically traces everything without manual setup in a graph-like sequence
+- trace(): Chooses which inputs/outputs to log.
+- wrap_openai – Wrapper for OpenAI calls (tracks token usage)
+- RunTree API – For full manual control, quite advanced. requires LANGCHAIN_TRACING_V2 = false.
 ![RunTree](https://i.gyazo.com/8df3b6105fb98d599ce41e624904de9f.png)
 
 
