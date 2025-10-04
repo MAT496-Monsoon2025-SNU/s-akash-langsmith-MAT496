@@ -1,4 +1,5 @@
 # S Akash - LangSmith Course Documentation for MAT496
+Note: All source files available in the relevant folders (Module 1, Module 2) titled the same as each video along with videos numbered in the description of the commit.
 ## Module 1
 ### Vid 1 (Basics of Tracing)
 Used @traceable decorator to trace how functions get executed in LangSmith. Understood what the basic idea of tracing is. 
@@ -38,4 +39,11 @@ Instead of the readymade examples pertaining to LangSmith, I wrote custom exampl
 Evaluators use a Run and an Example to calculate metrics like how similar two outputs are. We used a reference output to measure the accuracy of the output we fed to the LLM on a scale of 1 to 10.
 I changed up the questionnaire (input, output and reference outputs) to match the Minecraft examples that I uploaded to my dataset. I also made an evaluator on LangSmith using LLM-as-Judge
 ![evaluators](https://i.gyazo.com/dbff230f28afaf277577ffac1b36d86b.png)
+
+### Vid 3 (Experiments)
+Experiments evaluate datasets with a lot more flexibility on which version of your LLM and even which version of your dataset is taken. 
+You can even run experiments multiple times to determine if the LLM model has much deviation in its responses, and you can even run it concurrently to give you a faster output (although this uses up OpenAI rate limits much quicker and I am cautiously sparing of my 5$ worth of it!)
+I used my dataset of Minecraft questions (I am sorry in advance, I just really like Minecraft. I figured you could frame a lot of questions based on it) to evaluate the responses given by ChatGPT 4o as well as 3.5 Turbo
+
+
 
