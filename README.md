@@ -33,3 +33,9 @@ I tried to figure out if Threads meant that new traces are able to use previous 
 Datasets are essentially example input/outputs. In this module I created a custom dataset and uploaded the examples from code to LangSmith. Also generated three AI examples with OpenAI that seemed to be in line with all my other examples. 
 Instead of the readymade examples pertaining to LangSmith, I wrote custom examples based on simple Minecraft navigation ranging from how Minecraft is played to some of its in-depth mechanisms
 ![dataset](https://i.gyazo.com/c2af697e03ac760c550e9029e69356e9.png)
+
+### Vid 2 (Evaluators)
+Evaluators use a Run and an Example to calculate metrics like how similar two outputs are. We used a reference output to measure the accuracy of the output we fed to the LLM on a scale of 1 to 10.
+I changed up the questionnaire (input, output and reference outputs) to match the Minecraft examples that I uploaded to my dataset. I also made an evaluator on LangSmith using LLM-as-Judge
+![evaluators](https://i.gyazo.com/dbff230f28afaf277577ffac1b36d86b.png)
+
