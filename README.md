@@ -56,5 +56,5 @@ Comparison of GPT 4o and GPT 3.5 Turbo^
 
 ## Module 3
 ### Vid 1 (Playground)
-Learnt about the Playground feature in LangSmith to use prompt templates and then manually using code, we made datasets for the same using create_examples() for inputs and outputs and create_dataset() to actually create the dataset and link it to the playground for testing
-Changed up the system prompt, wrote custom examples for my own dataset and used the same dataset in the playground to test the LLM's responses based on the custom output. Screenshot to playground attached in the notebook itself
+- Learnt about the Playground feature in LangSmith to use prompt templates and then manually using code, we made datasets for the same using create_examples() for inputs and outputs and create_dataset() to actually create the dataset and link it to the playground for testing
+- Changed up the system prompt, wrote custom examples for my own dataset and used the same dataset in the playground to test the LLM's responses based on the custom output. Screenshot to playground attached in the notebook itself
