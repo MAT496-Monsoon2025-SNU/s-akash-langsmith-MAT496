@@ -58,3 +58,7 @@ Comparison of GPT 4o and GPT 3.5 Turbo^
 ### Vid 1 (Playground)
 - Learnt about the Playground feature in LangSmith to use prompt templates and then manually using code, we made datasets for the same using create_examples() for inputs and outputs and create_dataset() to actually create the dataset and link it to the playground for testing
 - Changed up the system prompt, wrote custom examples for my own dataset and used the same dataset in the playground to test the LLM's responses based on the custom output. Screenshot to playground attached in the notebook itself
+
+### Vid 2 (Prompt Hub)
+- Made Langchain prompts in the playground, then using pull_prompt I retrieved them to use in the code. Also learnt how to write prompt templates in the notebook itself, then hydrated those prompts and converted them to the format that openAI uses so that I can get back a usable response. Finally, I pushed a prompt as both a RAG and a runnable sequence to the website. 
+- Changed all of the given default prompts. Made a "talk in programming language" prompt in the LangSmith website where the LLM responds in snippets of code based on the programming language I mention. Played around in the playground with other such prompts as well. Screenshots of the same are in the notebook
