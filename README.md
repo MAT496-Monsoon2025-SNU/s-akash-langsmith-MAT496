@@ -62,3 +62,7 @@ Comparison of GPT 4o and GPT 3.5 Turbo^
 ### Vid 2 (Prompt Hub)
 - Made Langchain prompts in the playground, then using pull_prompt I retrieved them to use in the code. Also learnt how to write prompt templates in the notebook itself, then hydrated those prompts and converted them to the format that openAI uses so that I can get back a usable response. Finally, I pushed a prompt as both a RAG and a runnable sequence to the website. 
 - Changed all of the given default prompts. Made a "talk in programming language" prompt in the LangSmith website where the LLM responds in snippets of code based on the programming language I mention. Played around in the playground with other such prompts as well. Screenshots of the same are in the notebook
+
+### Vid 3 (Prompt Engineering Lifecycle)
+- Used Prompt Hub and playground simultaneously for the RAG application. We basically implemented all our learnings from the previous videos of Module 3. Now, it's no longer needed to update the code everytime I want to update the prompt. 
+- I made sure to have the LLM say "Fetching from LangSmith Website:" at the start of the answers so that we can confirm that it's actually being fetched from the rag-with-code prompt template I made
