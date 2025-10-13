@@ -66,3 +66,8 @@ Comparison of GPT 4o and GPT 3.5 Turbo^
 ### Vid 3 (Prompt Engineering Lifecycle)
 - Used Prompt Hub and playground simultaneously for the RAG application. We basically implemented all our learnings from the previous videos of Module 3. Now, it's no longer needed to update the code everytime I want to update the prompt. 
 - I made sure to have the LLM say "Fetching from LangSmith Website:" at the start of the answers so that we can confirm that it's actually being fetched from the rag-with-code prompt template I made
+
+### Vid 4 (Prompt Canvas)
+- Learnt how to use the prompt canvas in the playground. Basically uses an LLM to write prompts for you. Can also highlight specific portions of the prompt to make the LLM tweak it even further
+- No code per se, just played around with the prompt canvas. 
+![promptcanvas](https://i.gyazo.com/cae0e0ebbed0bd79fe257c2995019221.png)
